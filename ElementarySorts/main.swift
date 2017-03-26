@@ -13,3 +13,8 @@ print("Original\n\(array)\n")
 print("Selection Sort\n\(selection_sort(array: array))\n")
 print("Insertion Sort\n\(insertion_sort(array: array.reversed()))")
 
+let insertionSorter = InsertionSort()
+print("\(insertionSorter.sort(array: array))")
+
+
+
