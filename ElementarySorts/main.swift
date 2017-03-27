@@ -17,4 +17,4 @@ let insertionSorter = InsertionSort()
 print("\(insertionSorter.sort(array: array))")
 
 
-
+print("\nA SelectionSort: \(selectionSort(array: array, 2))\n")
