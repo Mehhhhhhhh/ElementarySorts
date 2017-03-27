@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374A87C51E888C9100D6B178 /* ASelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374A87C41E888C9100D6B178 /* ASelectionSort.swift */; };
 		900078671E84A6EF008ED295 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900078661E84A6EF008ED295 /* InsertionSort.swift */; };
 		900078691E84A6FD008ED295 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900078681E84A6FD008ED295 /* SelectionSort.swift */; };
 		9000786B1E854B7E008ED295 /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000786A1E854B7E008ED295 /* ShellSort.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		374A87C41E888C9100D6B178 /* ASelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASelectionSort.swift; sourceTree = "<group>"; };
 		900078661E84A6EF008ED295 /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		900078681E84A6FD008ED295 /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		9000786A1E854B7E008ED295 /* ShellSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		9013546A1E84A64E0085520E = {
 			isa = PBXGroup;
 			children = (
+				374A87C41E888C9100D6B178 /* ASelectionSort.swift */,
+				90812BEE1E88557F00236470 /* Rainbow */,
 				901354751E84A64E0085520E /* ElementarySorts */,
 				901354741E84A64E0085520E /* Products */,
 			);
@@ -134,6 +138,8 @@
 				900078691E84A6FD008ED295 /* SelectionSort.swift in Sources */,
 				9000786B1E854B7E008ED295 /* ShellSort.swift in Sources */,
 				900078671E84A6EF008ED295 /* InsertionSort.swift in Sources */,
+				374A87C51E888C9100D6B178 /* ASelectionSort.swift in Sources */,
+				90812BFC1E88557F00236470 /* CodesParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
