@@ -38,6 +38,7 @@ struct InsertionSort {
       printout_ += "\n\(i)\t\(lastJ)"
       printout_ += "\(row(array, i, lastJ))\n"
     }
+    print(printout_)
     return array
   }
 }
@@ -77,12 +78,10 @@ extension InsertionSort: CustomDebugStringConvertible {
     for index in 0..<array.count {
       if index == j {
         row_ += "\t\(array[index])"
-          .applyingColor(.red).applyingStyle(.bold)
       } else if index == (j-1) {
         row_ += "\t|\(array[index])"
       } else if j < index && index < i {
         row_ += "\t\(array[index])"
-          .applyingColor(.black).applyingStyle(.bold)
       } else {
         row_ += "\t\(array[index])"
       }
