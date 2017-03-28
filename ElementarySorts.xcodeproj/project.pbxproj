@@ -50,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				374A87C41E888C9100D6B178 /* ASelectionSort.swift */,
-				90812BEE1E88557F00236470 /* Rainbow */,
 				901354751E84A64E0085520E /* ElementarySorts */,
 				901354741E84A64E0085520E /* Products */,
 			);
@@ -139,7 +138,6 @@
 				9000786B1E854B7E008ED295 /* ShellSort.swift in Sources */,
 				900078671E84A6EF008ED295 /* InsertionSort.swift in Sources */,
 				374A87C51E888C9100D6B178 /* ASelectionSort.swift in Sources */,
-				90812BFC1E88557F00236470 /* CodesParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
