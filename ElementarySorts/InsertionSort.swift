@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import AppKit
 
 /// Insertion Sort
 struct InsertionSort {
@@ -87,6 +87,16 @@ extension InsertionSort: CustomDebugStringConvertible {
       }
     }
     return row_
+  }
+}
+
+extension InsertionSort {
+
+  func attributedDebugString(array: [Int], i: Int, j: Int) -> String {
+    let string    = "\(array)\(i)\(j)"
+
+
+    return string
   }
 }
 
