@@ -17,4 +17,6 @@ let insertionSorter = InsertionSort()
 print("\(insertionSorter.sort(array: array))")
 
 
-print("\nA SelectionSort: \(selectionSort(array: array, 2))\n")
+print("\nA SelectionSort: \(selectionSort(array: array))\n")
+print("A InsertionSort: \(insertionSort(array))\n")
+print("A ShellSort: \(aShellSort(a: array, h: 2))\n")
