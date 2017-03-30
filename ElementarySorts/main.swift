@@ -65,3 +65,5 @@ for c in ANSIColors.all() {
 }
 
 print("\u{001B}[0;31m" + "This is a test")
+
+testQueueOfStrings("to be or not to - be -")

@@ -15,6 +15,11 @@ struct InsertionSort {
   // Sorts array by looking for [min] in iteration i
   // @Returns sorted array
   func sort(array: [Int]) -> [Int] {
+
+    // queue to hold sort trace
+    var sort_trace_queue = LinkedListQueue<SortTrace>()
+    
+
     var printout_ = header(array: array)
     var array = array
     for i in stride(from: 0, to: array.count, by: 1) {
@@ -35,10 +40,13 @@ struct InsertionSort {
           break
         }
       }
+      let sort_trace = SortTrace(i: i, j: lastJ, sequence: array)
+      sort_trace_queue.enqueue(sort_trace)
       printout_ += "\n\(i)\t\(lastJ)"
       printout_ += "\(row(array, i, lastJ))\n"
     }
     print(printout_)
+    print(sort_trace_queue)
     return array
   }
 }
@@ -48,6 +56,7 @@ struct InsertionSort {
 
 // Color codes
 // black   30
+
 // red     31
 // green   32
 // yellow  33
@@ -99,8 +108,6 @@ extension InsertionSort {
     return string
   }
 }
-
-
 
 /// Sorts input
 /// in iteration i, swap [i] with each larger entry to its left

@@ -13,6 +13,12 @@
 		900078691E84A6FD008ED295 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900078681E84A6FD008ED295 /* SelectionSort.swift */; };
 		9000786B1E854B7E008ED295 /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9000786A1E854B7E008ED295 /* ShellSort.swift */; };
 		901354771E84A64E0085520E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901354761E84A64E0085520E /* main.swift */; };
+		90ACD5981E8B072B00D62A57 /* QueueAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD5971E8B072B00D62A57 /* QueueAPI.swift */; };
+		90ACD59A1E8B441F00D62A57 /* LinkedListQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD5991E8B441F00D62A57 /* LinkedListQueue.swift */; };
+		90ACD59C1E8C0A1D00D62A57 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD59B1E8C0A1D00D62A57 /* Node.swift */; };
+		90ACD59E1E8C3ACD00D62A57 /* ListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD59D1E8C3ACD00D62A57 /* ListAPI.swift */; };
+		90ACD5A01E8CA94800D62A57 /* QueueOfString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ACD59F1E8CA94800D62A57 /* QueueOfString.swift */; };
+		90B0A1F81E8CE3D200ED9844 /* SortTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0A1F71E8CE3D200ED9844 /* SortTrace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +41,15 @@
 		9000786A1E854B7E008ED295 /* ShellSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		901354731E84A64E0085520E /* ElementarySorts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ElementarySorts; sourceTree = BUILT_PRODUCTS_DIR; };
 		901354761E84A64E0085520E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		90ACD5971E8B072B00D62A57 /* QueueAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueAPI.swift; path = Queue/QueueAPI.swift; sourceTree = "<group>"; };
+		90ACD5991E8B441F00D62A57 /* LinkedListQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedListQueue.swift; path = Queue/LinkedListQueue.swift; sourceTree = "<group>"; };
+		90ACD59B1E8C0A1D00D62A57 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Queue/Node.swift; sourceTree = "<group>"; };
+		90ACD59D1E8C3ACD00D62A57 /* ListAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListAPI.swift; path = Queue/ListAPI.swift; sourceTree = "<group>"; };
+		90ACD59F1E8CA94800D62A57 /* QueueOfString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueOfString.swift; path = Queue/QueueOfString.swift; sourceTree = "<group>"; };
+		90B0A1F71E8CE3D200ED9844 /* SortTrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortTrace.swift; sourceTree = "<group>"; };
+		90B0A1F91E8CFEE500ED9844 /* SortTrace.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = SortTrace.rtf; sourceTree = "<group>"; };
+		90B0A1FA1E8D03D000ED9844 /* SortTrace.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SortTrace.txt; sourceTree = "<group>"; };
+		90B0A1FB1E8D04C300ED9844 /* SortTrace.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SortTrace.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 		9013546A1E84A64E0085520E = {
 			isa = PBXGroup;
 			children = (
+				90ACD5961E8B06D900D62A57 /* Queue */,
 				374A87C41E888C9100D6B178 /* ASelectionSort.swift */,
 				374A87C81E88C62600D6B178 /* AInsertionSort.swift */,
 				901354751E84A64E0085520E /* ElementarySorts */,
@@ -69,12 +85,28 @@
 		901354751E84A64E0085520E /* ElementarySorts */ = {
 			isa = PBXGroup;
 			children = (
+				90B0A1FB1E8D04C300ED9844 /* SortTrace.html */,
+				90B0A1F91E8CFEE500ED9844 /* SortTrace.rtf */,
 				901354761E84A64E0085520E /* main.swift */,
 				9000786A1E854B7E008ED295 /* ShellSort.swift */,
 				900078661E84A6EF008ED295 /* InsertionSort.swift */,
 				900078681E84A6FD008ED295 /* SelectionSort.swift */,
+				90B0A1F71E8CE3D200ED9844 /* SortTrace.swift */,
+				90B0A1FA1E8D03D000ED9844 /* SortTrace.txt */,
 			);
 			path = ElementarySorts;
+			sourceTree = "<group>";
+		};
+		90ACD5961E8B06D900D62A57 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				90ACD5971E8B072B00D62A57 /* QueueAPI.swift */,
+				90ACD5991E8B441F00D62A57 /* LinkedListQueue.swift */,
+				90ACD59B1E8C0A1D00D62A57 /* Node.swift */,
+				90ACD59D1E8C3ACD00D62A57 /* ListAPI.swift */,
+				90ACD59F1E8CA94800D62A57 /* QueueOfString.swift */,
+			);
+			name = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +136,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = ForeCyte;
 				TargetAttributes = {
 					901354721E84A64E0085520E = {
@@ -136,10 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90ACD59A1E8B441F00D62A57 /* LinkedListQueue.swift in Sources */,
 				901354771E84A64E0085520E /* main.swift in Sources */,
+				90ACD5A01E8CA94800D62A57 /* QueueOfString.swift in Sources */,
 				374A87C91E88C62600D6B178 /* AInsertionSort.swift in Sources */,
 				900078691E84A6FD008ED295 /* SelectionSort.swift in Sources */,
+				90B0A1F81E8CE3D200ED9844 /* SortTrace.swift in Sources */,
+				90ACD59E1E8C3ACD00D62A57 /* ListAPI.swift in Sources */,
+				90ACD59C1E8C0A1D00D62A57 /* Node.swift in Sources */,
 				9000786B1E854B7E008ED295 /* ShellSort.swift in Sources */,
+				90ACD5981E8B072B00D62A57 /* QueueAPI.swift in Sources */,
 				900078671E84A6EF008ED295 /* InsertionSort.swift in Sources */,
 				374A87C51E888C9100D6B178 /* ASelectionSort.swift in Sources */,
 			);
@@ -233,6 +271,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
