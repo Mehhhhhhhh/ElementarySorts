@@ -1,17 +1,17 @@
 //
-//  AInsertionSort.swift
+//  AShellSort.swift
 //  ElementarySorts
 //
-//  Created by Alex Blanchard on 3/26/17.
+//  Created by Alex Blanchard on 3/27/17.
 //  Copyright © 2017 ForeCyte. All rights reserved.
 //
 
 import Foundation
 
-func insertionSort(_ a: [Int]) -> [Int] {
+func aShellSort(a: [Int], h: Int = 1) -> [Int] {
   var a = a
-  for i in stride(from: 0, to: a.count, by: 1) {
-    for j in stride(from: i, to: 0, by: -1) {
+  for i in stride(from: h, to: a.count, by: 1) {
+    for j in stride(from: i - h, to: 0, by: -h) {
       if a[j] < a[j - 1] {
         let tmpMinus = a[j-1]
         let tmpJ     = a[j]
